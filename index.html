@@ -1,1 +1,220 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FreshSense | AI Food Freshness Prediction</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="hero">
+    <nav>
+        <div class="logo">FreshSense<span>.</span></div>
+        <a href="#introduction">Explore Project ↓</a>
+    </nav>
+
+    <div class="hero-content">
+        <p class="eyebrow">ARTIFICIAL INTELLIGENCE PROJECT</p>
+        <h1>Predicting Food Spoilage.<br><span>Reducing Food Waste.</span></h1>
+        <p>
+            An intelligent platform combining Machine Learning and
+            Computer Vision to monitor food freshness and predict
+            remaining shelf life.
+        </p>
+        <a class="hero-button" href="#introduction">Discover FreshSense</a>
+    </div>
+</header>
+
+<main class="container">
+
+    <section class="project-info">
+        <p><strong>Project:</strong> FreshSense</p>
+        <p><strong>Domain:</strong> Artificial Intelligence & Machine Learning</p>
+        <p><strong>Team members:</strong> Add your names here</p>
+    </section>
+
+    <aside class="toc">
+        <h2>Table of Contents</h2>
+        <ol>
+            <li><a href="#introduction">I. Introduction</a></li>
+            <li><a href="#datasets">II. Datasets</a></li>
+            <li><a href="#methodology">III. Methodology</a></li>
+            <li><a href="#evaluation">IV. Evaluation & Analysis</a></li>
+            <li><a href="#related-work">V. Related Work</a></li>
+            <li><a href="#conclusion">VI. Conclusion</a></li>
+        </ol>
+    </aside>
+
+    <section id="introduction">
+        <p class="section-label">01 — INTRODUCTION</p>
+        <h2>Why FreshSense?</h2>
+        <h3>Motivation</h3>
+        <p>
+            Food waste is a major global issue. Consumers often discard
+            food because they cannot accurately estimate its freshness
+            or remaining shelf life.
+        </p>
+        <p>
+            Traditional methods mainly rely on expiration dates and
+            manual observation. However, food deterioration also depends
+            on temperature, humidity and storage conditions.
+        </p>
+        <p>
+            FreshSense aims to address this problem through an
+            AI-powered platform that combines Computer Vision and
+            Machine Learning to monitor food freshness and predict
+            potential spoilage.
+        </p>
+
+        <h3>Project Objectives</h3>
+        <ul>
+            <li>Recognize food products from images.</li>
+            <li>Estimate visible freshness levels.</li>
+            <li>Predict the remaining shelf life.</li>
+            <li>Recommend which products should be consumed first.</li>
+            <li>Suggest recipes using available ingredients.</li>
+            <li>Help reduce unnecessary household food waste.</li>
+        </ul>
+
+        <h3>Expected Outcome</h3>
+        <p>
+            We aim to develop an intelligent web application that
+            monitors food inventory, provides freshness estimates,
+            predicts shelf life and offers personalized recommendations.
+        </p>
+    </section>
+
+    <section id="datasets">
+        <p class="section-label">02 — DATASETS</p>
+        <h2>Understanding the Data</h2>
+        <p>
+            The project will use food image datasets and structured
+            information related to food characteristics and storage
+            conditions.
+        </p>
+        <h3>Potential Data Sources</h3>
+        <ul>
+            <li>Fresh and Rotten Fruits Dataset.</li>
+            <li>Fruits and Vegetables Image Dataset.</li>
+            <li>Temperature and humidity measurements.</li>
+            <li>Food purchase dates and storage duration.</li>
+        </ul>
+        <h3>Data Preprocessing</h3>
+        <p>
+            Images will be resized and normalized. Structured data
+            will be cleaned, encoded and prepared for model training.
+            The dataset will be divided into training, validation
+            and testing subsets.
+        </p>
+    </section>
+
+    <section id="methodology">
+        <p class="section-label">03 — METHODOLOGY</p>
+        <h2>Our AI Approach</h2>
+        <h3>1. Food Recognition</h3>
+        <p>
+            CNN-based models will identify food categories from
+            uploaded images. MobileNetV2 and EfficientNet will
+            be considered.
+        </p>
+        <h3>2. Freshness Classification</h3>
+        <p>
+            Image classification models will estimate visible
+            freshness categories, such as fresh and spoiled.
+        </p>
+        <h3>3. Shelf-Life Prediction</h3>
+        <p>
+            Regression algorithms such as Random Forest,
+            Gradient Boosting and XGBoost will be investigated
+            to estimate remaining shelf life using available
+            food and storage features.
+        </p>
+        <h3>4. Smart Recommendations</h3>
+        <p>
+            The system will prioritize products according to
+            their estimated remaining shelf life and suggest
+            recipes based on available ingredients.
+        </p>
+        <h3>Technologies</h3>
+        <div class="tags">
+            <span>Python</span><span>Scikit-learn</span>
+            <span>TensorFlow</span><span>OpenCV</span>
+            <span>Pandas</span><span>NumPy</span>
+            <span>FastAPI</span><span>React</span>
+        </div>
+    </section>
+
+    <section id="evaluation">
+        <p class="section-label">04 — EVALUATION</p>
+        <h2>Evaluation & Analysis</h2>
+        <h3>Classification Metrics</h3>
+        <ul>
+            <li>Accuracy</li>
+            <li>Precision</li>
+            <li>Recall</li>
+            <li>F1-score</li>
+            <li>Confusion Matrix</li>
+        </ul>
+        <h3>Regression Metrics</h3>
+        <ul>
+            <li>Mean Absolute Error (MAE)</li>
+            <li>Mean Squared Error (MSE)</li>
+            <li>Root Mean Squared Error (RMSE)</li>
+            <li>R² Score</li>
+        </ul>
+        <p class="notice">
+            Experimental results, graphs and model comparisons
+            will be added after training and evaluation.
+        </p>
+    </section>
+
+    <section id="related-work">
+        <p class="section-label">05 — RELATED WORK</p>
+        <h2>Related Work & Resources</h2>
+        <ul>
+            <li><a href="https://scikit-learn.org/">Scikit-learn Documentation</a></li>
+            <li><a href="https://www.tensorflow.org/">TensorFlow Documentation</a></li>
+            <li><a href="https://opencv.org/">OpenCV</a></li>
+            <li><a href="https://www.kaggle.com/">Kaggle Datasets</a></li>
+            <li><a href="https://data.mendeley.com/">Mendeley Data</a></li>
+        </ul>
+        <p>
+            Further academic papers about food quality inspection,
+            food freshness classification and shelf-life prediction
+            will be reviewed and added.
+        </p>
+    </section>
+
+    <section id="conclusion">
+        <p class="section-label">06 — CONCLUSION</p>
+        <h2>Towards Smarter Food Management</h2>
+        <p>
+            FreshSense proposes an intelligent approach to food
+            freshness monitoring and waste reduction through
+            Computer Vision, Machine Learning and personalized
+            recommendations.
+        </p>
+        <p>
+            Future improvements may include IoT sensor integration,
+            more advanced prediction models and personalized
+            consumption recommendations.
+        </p>
+        <p>
+            Our ultimate goal is to demonstrate how Artificial
+            Intelligence can contribute to smarter and more
+            sustainable food management.
+        </p>
+    </section>
+
+</main>
+
+<footer>
+    <h2>FreshSense<span>.</span></h2>
+    <p>AI-powered food freshness monitoring.</p>
+    <p>Machine Learning Project · 2026</p>
+</footer>
+
+</body>
+</html>
